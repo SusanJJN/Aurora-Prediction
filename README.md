@@ -36,7 +36,7 @@ Aurora-Prediction
 
 # Data preparation
 For training and testing, we use npz files instead of oringinal jpg images. In tools/utils.py, we provide a function to transform images to npz files. 
-You can also download all the npz files here.
+You can also download all the npz files ([training](https://github.com/SusanJJN/Aurora-Prediction/releases/download/v1.0/training_npzs.rar), [validation](https://github.com/SusanJJN/Aurora-Prediction/releases/download/v1.0/validation_npzs.rar), [test](https://github.com/SusanJJN/Aurora-Prediction/releases/download/v1.0/test_npzs.rar)) here. 
 
 # Training
 ```python
@@ -52,3 +52,6 @@ python test.py --input <input frames> --model_no <list of model index>
 
 # Test on a single case
 We provide a jupyter notebook in example/. You should put test images in example/true_imgs first, including input 5 frames and true output 10 frames. The predicted images will be saved in example/pred_imgs.
+
+# Pretrained models
+You can download the [pretrained models](https://github.com/SusanJJN/Aurora-Prediction/releases/download/v1.0/model_weights.rar) here.
