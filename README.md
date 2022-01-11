@@ -1,11 +1,10 @@
 # Aurora-Prediction
+This is the implementation of Aurora Evolution Prediction Model based on ConvLSTM
 
 # Environment
 The code is developed using python 3.6 on Ubuntu 16.04. NVIDIA GPUs are needed.
 
-# Quick start
-
-## Installation
+# Installation
 1. Clone this repo:
 ```python
 git clone https://github.com/SusanJJN/Aurora-Prediction.git
@@ -28,18 +27,22 @@ Aurora-Prediction
 ├── README.md
 └── requirements.txt
 ```
-## Data preparation
+
+# Data preparation
 For training and testing, we use npz files instead of oringinal jpg images. In tools/utils.py, we provide a function to transform images to npz files. 
 You can also download all the npz files here.
-## Training
+
+# Training
 ```python
 cd tools
 python train.py --input <input frames> --out <output frame>
 ```
-## Testing
+
+# Testing
 ```python
 cd tools
 python test.py --input <input frames> --model_no <list of model index>
 ```
-## Test on a single case
+
+# Test on a single case
 We provide a jupyter notebook in example/. You should put test images in example/true_imgs first, including input 5 frames and true output 10 frames. The predicted images will be saved in example/pred_imgs.
