@@ -4,6 +4,12 @@ This is the implementation of Aurora Evolution Prediction Model based on ConvLST
 # Environment
 The code is developed using python 3.6 on Ubuntu 16.04. NVIDIA GPUs are needed.
 
+# Requirements
+* Python 3.6
+* CUDA 9.0
+* Tensorflow 1.14
+* Keras 2.1
+
 # Installation
 1. Clone this repo:
 ```python
