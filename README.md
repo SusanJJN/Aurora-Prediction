@@ -8,7 +8,7 @@ The code is developed using python 3.6 on Ubuntu 16.04. NVIDIA GPUs are needed.
 ## Installation
 1. Clone this repo:
 ```python
-git clone 
+git clone https://github.com/SusanJJN/Aurora-Prediction.git
 ```
 2. Install dependencies:
 ```python
